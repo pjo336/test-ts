@@ -1,0 +1,8 @@
+--require ts-node/register
+--option value spec/**/*.spec.ts
+--require spec/bootstrap/test-setup.js
+--recursive
+--retries 0
+--sort
+--timeout 10000
+--ui bdd
